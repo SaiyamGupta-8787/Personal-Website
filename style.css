@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -60,4 +63,165 @@ nav a{
 #hero a:hover {
     background-color: blue;
     border-color: blue;
+    cursor: pointer;
+}
+
+#about {
+    max-width: 800px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+#skills {
+    max-width: 800px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#skills li {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border: 2px solid;
+    border-color: #333;
+    border-radius: 100px;
+    font-weight: 500;
+}
+
+#skills li:hover {
+    transform: translateY(5px);
+    background-color: #888585;
+    box-shadow: 0 2px 2px #00d5ff;
+    transition: all 0.2s ease;
+}
+
+#projects {
+    max-width: 900px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+#projects div {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 2px solid;
+    border-color: #333;
+    border-radius: 60px;
+}
+
+#projects h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+#projects p {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+#projects a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid;
+    border-color: #007bff;
+    border-radius: 6px;
+    color: #007bff;
+    font-weight: 600;
+}
+
+#projects a:hover {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+#projects div:hover {
+    transform: translateY(5px);
+    box-shadow: 0 4px 12px rgba(0, 187, 255, 0.915);
+    transition: all 0.2s ease;
+}
+
+#contact {
+    max-width: 800px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact p{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin-bottom: 5px;
+}
+
+#contact a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f0f0f0;
+    margin-top: 60px;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+@media (max-width: 600px) {
+    #skills ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    #projects div{
+        width: 90%;
+        margin: 10px auto
+    }
+    body {
+        padding: 10px;
+    }
 }
