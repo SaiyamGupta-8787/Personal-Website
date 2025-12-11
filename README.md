@@ -11,6 +11,8 @@ personal-website/
 ├── index.html
 ├── style.css
 ├── script.js
+├── LICENSE
+├── README.md
 └──assets/
    ├── images/
    └── fonts/
