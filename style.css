@@ -7,8 +7,10 @@ html{
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
+.montserrat body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
   line-height: 1.6;
   background-color: white;
   color: black;
@@ -63,6 +65,9 @@ nav a{
 #hero a:hover {
     background-color: blue;
     border-color: blue;
+    transform: translateY(5px);
+    box-shadow: 0 2px 2px cyan;
+    transition: all 0.2s ease;
     cursor: pointer;
 }
 
