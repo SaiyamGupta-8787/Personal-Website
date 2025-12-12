@@ -13,7 +13,13 @@ personal-website/
 ├── script.js
 ├── LICENSE
 ├── README.md
+├──sitemap.xml
+├──google-search-console-verification-file
 └──assets/
    ├── images/
-   └── fonts/
+   |      ├── Website-bg.jpg
+   |      ├──favicon.png
+   |      └──og-image.png
+   └── videos/
+          └──Website-bg.webm
 ```
